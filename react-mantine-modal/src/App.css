@@ -1,0 +1,10 @@
+.checkbox-wrapper {
+    margin: 10px;
+}
+
+.mantine-Switch-thumb {
+    background-color: #40c057;
+}
+.mantine-Switch-track {
+    background-color: white !important;
+}

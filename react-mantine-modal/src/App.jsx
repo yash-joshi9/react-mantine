@@ -115,7 +115,11 @@ function App() {
           <Modal.Overlay />
           <Modal.Content>
             <Modal.Header style={{ background: "#40c057", color: "white" }}>
-              <Modal.Title>Personalization Settings</Modal.Title>
+              <Modal.Title
+                style={{ fontFamily: "sans-serif", fontWeight: "bold" }}
+              >
+                Personalization Settings
+              </Modal.Title>
               <Switch
                 color="white"
                 checked={true}

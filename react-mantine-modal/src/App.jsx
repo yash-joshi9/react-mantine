@@ -64,7 +64,8 @@ function CheckboxComponent({ title }) {
                 padding: "1px 10px",
                 borderRadius: "10px",
                 color: "#cb3838",
-
+                fontFamily: "sans-serif",
+                fontWeight: "bold",
                 background: "#ffe0e6",
               }}
             >
@@ -85,6 +86,8 @@ function CheckboxComponent({ title }) {
                 padding: "1px 10px",
                 borderRadius: "10px",
                 color: "#cb3838",
+                fontFamily: "sans-serif",
+                fontWeight: "bold",
                 background: "#ffe0e6",
               }}
             >

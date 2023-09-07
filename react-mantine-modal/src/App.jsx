@@ -14,7 +14,15 @@ import "./App.css";
 function CheckboxComponent({ title }) {
   return (
     <div>
-      <div style={{ margin: "10px 0" }}>{title}:</div>
+      <div
+        style={{
+          margin: "10px 0",
+          fontFamily: "sans-serif",
+          fontWeight: "bold",
+        }}
+      >
+        {title}:
+      </div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <div>
           <Checkbox
